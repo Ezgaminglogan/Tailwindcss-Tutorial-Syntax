@@ -17,6 +17,8 @@ Create a centered contact form with:
 
 **Skills:** Forms, layouts, colors, spacing
 
+**Reference Files:** `03-forms.md`, `02-layouts.md`, `01-basics.md`
+
 ---
 
 ## 2. 💼 Portfolio Landing Page
@@ -32,6 +34,8 @@ Build a single-page portfolio with:
 - Footer
 
 **Skills:** Navigation, layouts, grid, responsive design
+
+**Reference Files:** `06-navigation.md`, `02-layouts.md`, `07-responsive.md`, `03-forms.md`
 
 ---
 
@@ -49,6 +53,8 @@ Create a product listing page:
 
 **Skills:** Grid, cards, hover effects, responsive
 
+**Reference Files:** `02-layouts.md`, `04-components.md`, `07-responsive.md`
+
 ---
 
 ## 4. 📊 Dashboard Interface
@@ -64,6 +70,8 @@ Build an admin dashboard with:
 - Recent activity list
 
 **Skills:** Complex layouts, tables, components
+
+**Reference Files:** `02-layouts.md`, `04-components.md`, `06-navigation.md`
 
 ---
 
@@ -83,6 +91,8 @@ Complete CRUD interface:
 
 **Skills:** Modals, forms, tables, state management
 
+**Reference Files:** `05-crud-examples.md`, `03-forms.md`, `04-components.md`, `02-layouts.md`
+
 ---
 
 ## 6. 📱 Social Media Profile
@@ -98,6 +108,8 @@ Create a profile page with:
 - Follow button
 
 **Skills:** Cards, tabs, images, layout
+
+**Reference Files:** `04-components.md`, `02-layouts.md`, `06-navigation.md`
 
 ---
 
@@ -117,6 +129,8 @@ Build a product detail page:
 
 **Skills:** Complex layouts, components, interactions
 
+**Reference Files:** `04-components.md`, `02-layouts.md`, `08-patterns.md`
+
 ---
 
 ## 8. 📧 Email Template
@@ -132,6 +146,8 @@ Design a responsive email layout:
 - Mobile responsive
 
 **Skills:** Responsive design, layouts
+
+**Reference Files:** `07-responsive.md`, `02-layouts.md`
 
 ---
 
