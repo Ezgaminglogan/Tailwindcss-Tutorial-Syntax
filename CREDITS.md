@@ -19,10 +19,8 @@ This comprehensive Tailwind CSS tutorial was created from scratch to help develo
 ## ✨ What's Included
 
 - **8 Comprehensive Tutorials** - From basics to advanced patterns
-- **100+ Code Examples** - Real, working code you can copy
 - **Visual Diagrams** - ASCII art to understand layouts
 - **Practice Projects** - 8 complete projects to build
-- **Live HTML Examples** - Interactive demonstrations
 - **Quick Reference Cheatsheet** - For fast lookups
 
 ---
