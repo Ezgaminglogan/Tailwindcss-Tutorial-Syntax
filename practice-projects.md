@@ -17,7 +17,7 @@ Create a centered contact form with:
 
 **Skills:** Forms, layouts, colors, spacing
 
-**Reference Files:** `03-forms.md`, `02-layouts.md`, `01-basics.md`
+**Reference Files:** `03-forms.md`, `02-layouts.md`, `01-basics.md`, `09-accessibility.md`
 
 ---
 
@@ -35,7 +35,7 @@ Build a single-page portfolio with:
 
 **Skills:** Navigation, layouts, grid, responsive design
 
-**Reference Files:** `06-navigation.md`, `02-layouts.md`, `07-responsive.md`, `03-forms.md`
+**Reference Files:** `06-navigation.md`, `02-layouts.md`, `07-responsive.md`, `03-forms.md`, `10-advanced-utilities.md`, `09-accessibility.md`
 
 ---
 
@@ -53,7 +53,7 @@ Create a product listing page:
 
 **Skills:** Grid, cards, hover effects, responsive
 
-**Reference Files:** `02-layouts.md`, `04-components.md`, `07-responsive.md`
+**Reference Files:** `02-layouts.md`, `04-components.md`, `07-responsive.md`, `08-patterns.md`, `09-accessibility.md`
 
 ---
 
@@ -71,7 +71,7 @@ Build an admin dashboard with:
 
 **Skills:** Complex layouts, tables, components
 
-**Reference Files:** `02-layouts.md`, `04-components.md`, `06-navigation.md`
+**Reference Files:** `02-layouts.md`, `04-components.md`, `06-navigation.md`, `10-advanced-utilities.md`, `09-accessibility.md`
 
 ---
 
@@ -91,7 +91,7 @@ Complete CRUD interface:
 
 **Skills:** Modals, forms, tables, state management
 
-**Reference Files:** `05-crud-examples.md`, `03-forms.md`, `04-components.md`, `02-layouts.md`
+**Reference Files:** `05-crud-examples.md`, `03-forms.md`, `04-components.md`, `02-layouts.md`, `09-accessibility.md`
 
 ---
 
@@ -109,7 +109,7 @@ Create a profile page with:
 
 **Skills:** Cards, tabs, images, layout
 
-**Reference Files:** `04-components.md`, `02-layouts.md`, `06-navigation.md`
+**Reference Files:** `04-components.md`, `02-layouts.md`, `06-navigation.md`, `08-patterns.md`, `09-accessibility.md`
 
 ---
 
@@ -129,7 +129,7 @@ Build a product detail page:
 
 **Skills:** Complex layouts, components, interactions
 
-**Reference Files:** `04-components.md`, `02-layouts.md`, `08-patterns.md`
+**Reference Files:** `04-components.md`, `02-layouts.md`, `08-patterns.md`, `10-advanced-utilities.md`, `09-accessibility.md`
 
 ---
 
@@ -147,7 +147,7 @@ Design a responsive email layout:
 
 **Skills:** Responsive design, layouts
 
-**Reference Files:** `07-responsive.md`, `02-layouts.md`
+**Reference Files:** `07-responsive.md`, `02-layouts.md`, `10-advanced-utilities.md`, `09-accessibility.md`
 
 ---
 
@@ -157,8 +157,10 @@ Design a responsive email layout:
 2. **Reference the Docs** - Use the tutorial files
 3. **Experiment** - Try different colors and sizes
 4. **Make it Responsive** - Test on different screen sizes
-5. **Add Hover Effects** - Make it interactive
+5. **Add Hover Effects** - Use animations and transitions from `08-patterns.md`
 6. **Use Real Content** - Don't just use placeholders
+7. **Focus on Accessibility** - Check `09-accessibility.md` for keyboard navigation and screen reader support
+8. **Try Advanced Features** - Experiment with scroll snap, blend modes from `10-advanced-utilities.md`
 
 ---
 
