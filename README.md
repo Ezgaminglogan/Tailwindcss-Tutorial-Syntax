@@ -15,9 +15,6 @@ Welcome to your comprehensive Tailwind CSS learning resource! This tutorial cove
 7. [Responsive Design](07-responsive.md)
 8. [Common Patterns](08-patterns.md)
 
-## 📽️ Project to Create
-1. [Frontend Project](01-practice-projects.md)
-
 ## 🚀 Quick Start
 
 Include Tailwind CSS in your HTML:
