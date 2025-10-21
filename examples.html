@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Examples Gallery</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-50 p-8">
+    
+    <div class="max-w-7xl mx-auto">
+        <h1 class="text-4xl font-bold mb-2">Tailwind CSS Examples</h1>
+        <p class="text-gray-600 mb-12">Visual examples of common components</p>
+        
+        <!-- Buttons Section -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold mb-6">Buttons</h2>
+            <div class="bg-white rounded-lg shadow-lg p-8">
+                <div class="flex flex-wrap gap-4">
+                    <button class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">Primary</button>
+                    <button class="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700">Success</button>
+                    <button class="bg-red-600 text-white px-6 py-3 rounded-lg hover:bg-red-700">Danger</button>
+                    <button class="border-2 border-blue-600 text-blue-600 px-6 py-3 rounded-lg hover:bg-blue-600 hover:text-white">Outline</button>
+                    <button class="bg-purple-600 text-white px-8 py-3 rounded-full hover:bg-purple-700">Pill Button</button>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Cards Section -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold mb-6">Cards</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-xl font-bold mb-2">Simple Card</h3>
+                    <p class="text-gray-600 mb-4">Basic card with shadow and padding.</p>
+                    <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Action</button>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="h-32 bg-gradient-to-r from-blue-500 to-purple-600"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Card with Image</h3>
+                        <p class="text-gray-600">Card with colored header.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow p-6">
+                    <h3 class="text-xl font-bold mb-2">Hover Effect</h3>
+                    <p class="text-gray-600">Shadow increases on hover!</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Forms Section -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold mb-6">Form Elements</h2>
+            <div class="bg-white rounded-lg shadow-lg p-8 max-w-2xl">
+                <div class="mb-4">
+                    <label class="block text-gray-700 font-medium mb-2">Text Input</label>
+                    <input type="text" placeholder="Enter text..." class="border border-gray-300 rounded-lg px-4 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+                
+                <div class="mb-4">
+                    <label class="block text-gray-700 font-medium mb-2">Select Dropdown</label>
+                    <select class="border border-gray-300 rounded-lg px-4 py-2 w-full bg-white">
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                    </select>
+                </div>
+                
+                <div class="mb-6">
+                    <label class="block text-gray-700 font-medium mb-2">Textarea</label>
+                    <textarea rows="3" placeholder="Enter message..." class="border border-gray-300 rounded-lg px-4 py-2 w-full resize-none focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                </div>
+                
+                <button class="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700">Submit</button>
+            </div>
+        </section>
+        
+        <!-- Table Section -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold mb-6">Data Table</h2>
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <table class="w-full">
+                    <thead class="bg-gray-800 text-white">
+                        <tr>
+                            <th class="px-6 py-3 text-left">Name</th>
+                            <th class="px-6 py-3 text-left">Email</th>
+                            <th class="px-6 py-3 text-left">Role</th>
+                            <th class="px-6 py-3 text-left">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200">
+                        <tr class="hover:bg-gray-50">
+                            <td class="px-6 py-4 font-medium">John Doe</td>
+                            <td class="px-6 py-4">john@example.com</td>
+                            <td class="px-6 py-4"><span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Admin</span></td>
+                            <td class="px-6 py-4"><span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Active</span></td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="px-6 py-4 font-medium">Jane Smith</td>
+                            <td class="px-6 py-4">jane@example.com</td>
+                            <td class="px-6 py-4"><span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">User</span></td>
+                            <td class="px-6 py-4"><span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Active</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        
+        <!-- Badges Section -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold mb-6">Badges & Tags</h2>
+            <div class="bg-white rounded-lg shadow-lg p-8">
+                <div class="flex flex-wrap gap-3">
+                    <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-semibold">Blue Badge</span>
+                    <span class="bg-green-100 text-green-800 px-4 py-2 rounded-full font-semibold">Success</span>
+                    <span class="bg-red-100 text-red-800 px-4 py-2 rounded-full font-semibold">Error</span>
+                    <span class="bg-yellow-100 text-yellow-800 px-4 py-2 rounded-full font-semibold">Warning</span>
+                    <span class="bg-purple-100 text-purple-800 px-4 py-2 rounded-full font-semibold">Info</span>
+                    <span class="bg-gray-800 text-white px-4 py-2 rounded font-semibold">Dark</span>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Alerts Section -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold mb-6">Alerts</h2>
+            <div class="space-y-4">
+                <div class="bg-blue-100 border-l-4 border-blue-500 text-blue-800 p-4 rounded">
+                    <p class="font-semibold">Info Alert</p>
+                    <p>This is an informational message.</p>
+                </div>
+                <div class="bg-green-100 border-l-4 border-green-500 text-green-800 p-4 rounded">
+                    <p class="font-semibold">Success Alert</p>
+                    <p>Operation completed successfully!</p>
+                </div>
+                <div class="bg-red-100 border-l-4 border-red-500 text-red-800 p-4 rounded">
+                    <p class="font-semibold">Error Alert</p>
+                    <p>Something went wrong. Please try again.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Credits Footer -->
+        <footer class="mt-16 text-center pb-8">
+            <div class="bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg p-6 text-white">
+                <p class="text-lg font-semibold mb-2">Created by EzGgamingLogan</p>
+                <p class="text-sm opacity-90">Made with ❤️ and Tailwind CSS</p>
+            </div>
+        </footer>
+        
+    </div>
+
+</body>
+</html>
+

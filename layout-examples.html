@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Examples</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-100 p-8">
+    
+    <div class="max-w-7xl mx-auto space-y-12">
+        <h1 class="text-4xl font-bold">Tailwind Layout Examples</h1>
+        
+        <!-- Flex Row -->
+        <section>
+            <h2 class="text-2xl font-bold mb-4">Flex Row (flex justify-between)</h2>
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <div class="flex justify-between items-center">
+                    <div class="bg-blue-500 text-white px-6 py-4 rounded">Item 1</div>
+                    <div class="bg-green-500 text-white px-6 py-4 rounded">Item 2</div>
+                    <div class="bg-purple-500 text-white px-6 py-4 rounded">Item 3</div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Flex Center -->
+        <section>
+            <h2 class="text-2xl font-bold mb-4">Flex Center (flex justify-center)</h2>
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <div class="flex justify-center gap-4">
+                    <div class="bg-blue-500 text-white px-6 py-4 rounded">Item 1</div>
+                    <div class="bg-green-500 text-white px-6 py-4 rounded">Item 2</div>
+                    <div class="bg-purple-500 text-white px-6 py-4 rounded">Item 3</div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Grid 3 Columns -->
+        <section>
+            <h2 class="text-2xl font-bold mb-4">Grid 3 Columns (grid grid-cols-3 gap-4)</h2>
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <div class="grid grid-cols-3 gap-4">
+                    <div class="bg-orange-500 text-white p-6 rounded text-center">Card 1</div>
+                    <div class="bg-red-500 text-white p-6 rounded text-center">Card 2</div>
+                    <div class="bg-pink-500 text-white p-6 rounded text-center">Card 3</div>
+                    <div class="bg-indigo-500 text-white p-6 rounded text-center">Card 4</div>
+                    <div class="bg-teal-500 text-white p-6 rounded text-center">Card 5</div>
+                    <div class="bg-cyan-500 text-white p-6 rounded text-center">Card 6</div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Navbar Example -->
+        <section>
+            <h2 class="text-2xl font-bold mb-4">Navbar (flex justify-between items-center)</h2>
+            <nav class="bg-gray-900 text-white rounded-lg shadow-lg px-8 py-4 flex justify-between items-center">
+                <div class="text-2xl font-bold">Logo</div>
+                <ul class="flex gap-6">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+                <button class="bg-blue-600 px-6 py-2 rounded-lg hover:bg-blue-700">Sign In</button>
+            </nav>
+        </section>
+        
+        <!-- Sidebar Layout -->
+        <section>
+            <h2 class="text-2xl font-bold mb-4">Sidebar Layout (flex)</h2>
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="flex h-64">
+                    <aside class="w-64 bg-gray-800 text-white p-6">
+                        <h3 class="text-xl font-bold mb-4">Sidebar</h3>
+                        <ul class="space-y-2">
+                            <li class="bg-gray-700 px-4 py-2 rounded">Dashboard</li>
+                            <li class="px-4 py-2 hover:bg-gray-700 rounded">Users</li>
+                            <li class="px-4 py-2 hover:bg-gray-700 rounded">Settings</li>
+                        </ul>
+                    </aside>
+                    <main class="flex-1 p-8 bg-gray-50">
+                        <h3 class="text-2xl font-bold mb-4">Main Content Area</h3>
+                        <p class="text-gray-600">This area takes up remaining space (flex-1)</p>
+                    </main>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Centered Card -->
+        <section>
+            <h2 class="text-2xl font-bold mb-4">Centered Card (flex items-center justify-center)</h2>
+            <div class="bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg h-96 flex items-center justify-center">
+                <div class="bg-white rounded-lg shadow-2xl p-8 max-w-md">
+                    <h3 class="text-2xl font-bold mb-4">Perfectly Centered</h3>
+                    <p class="text-gray-600 mb-6">This card is centered both horizontally and vertically.</p>
+                    <button class="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700">Action</button>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Responsive Grid -->
+        <section>
+            <h2 class="text-2xl font-bold mb-4">Responsive Grid (grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4)</h2>
+            <p class="text-gray-600 mb-4">Resize window to see: 1 column mobile, 2 tablet, 4 desktop</p>
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                    <div class="bg-blue-500 text-white p-6 rounded text-center">1</div>
+                    <div class="bg-green-500 text-white p-6 rounded text-center">2</div>
+                    <div class="bg-purple-500 text-white p-6 rounded text-center">3</div>
+                    <div class="bg-red-500 text-white p-6 rounded text-center">4</div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Flex Column -->
+        <section>
+            <h2 class="text-2xl font-bold mb-4">Flex Column (flex flex-col gap-4)</h2>
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <div class="flex flex-col gap-4">
+                    <div class="bg-indigo-500 text-white px-6 py-4 rounded">Item 1</div>
+                    <div class="bg-teal-500 text-white px-6 py-4 rounded">Item 2</div>
+                    <div class="bg-cyan-500 text-white px-6 py-4 rounded">Item 3</div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Card Grid with Images -->
+        <section>
+            <h2 class="text-2xl font-bold mb-4">Product Cards</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="h-48 bg-gradient-to-br from-orange-400 to-pink-600"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Product 1</h3>
+                        <p class="text-gray-600 mb-4">$29.99</p>
+                        <button class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="h-48 bg-gradient-to-br from-blue-400 to-purple-600"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Product 2</h3>
+                        <p class="text-gray-600 mb-4">$39.99</p>
+                        <button class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="h-48 bg-gradient-to-br from-green-400 to-teal-600"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Product 3</h3>
+                        <p class="text-gray-600 mb-4">$49.99</p>
+                        <button class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Credits Footer -->
+        <footer class="mt-16 text-center pb-8">
+            <div class="bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg shadow-xl p-8 text-white">
+                <h3 class="text-2xl font-bold mb-2">Created by EzGgamingLogan</h3>
+                <p class="text-sm opacity-90 mb-4">A comprehensive Tailwind CSS tutorial</p>
+                <p class="text-xs opacity-75">Made with ❤️ and Tailwind CSS © 2025</p>
+            </div>
+        </footer>
+        
+    </div>
+
+</body>
+</html>
+
